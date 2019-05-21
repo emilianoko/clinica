@@ -14,5 +14,9 @@ namespace WebAppVet.Data
         }
 
         public DbSet<Room> Rooms { get; set; }
+        public DbSet<Client> Client { get; set; }
+        public DbSet<Patient> Patient { get; set; }
+
+
     }
 }

@@ -120,17 +120,30 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RoomController.cs" />
     <Compile Include="Data\ClinicaDbContext.cs" />
+    <Compile Include="Data\RoomDataGateway.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interface\IEntity.cs" />
-    <Compile Include="Migrations\201905132356062_Initial-Created.cs" />
-    <Compile Include="Migrations\201905132356062_Initial-Created.Designer.cs">
-      <DependentUpon>201905132356062_Initial-Created.cs</DependentUpon>
+    <Compile Include="Interface\IRepository.cs" />
+    <Compile Include="Migrations\201905210000361_Initial.cs" />
+    <Compile Include="Migrations\201905210000361_Initial.Designer.cs">
+      <DependentUpon>201905210000361_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905210004579_initial3.cs" />
+    <Compile Include="Migrations\201905210004579_initial3.Designer.cs">
+      <DependentUpon>201905210004579_initial3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905210020032_room.cs" />
+    <Compile Include="Migrations\201905210020032_room.Designer.cs">
+      <DependentUpon>201905210020032_room.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Patient.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedKerne\Gender.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -149,10 +162,15 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201905132356062_Initial-Created.resx">
-      <DependentUpon>201905132356062_Initial-Created.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905210000361_Initial.resx">
+      <DependentUpon>201905210000361_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905210004579_initial3.resx">
+      <DependentUpon>201905210004579_initial3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905210020032_room.resx">
+      <DependentUpon>201905210020032_room.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
