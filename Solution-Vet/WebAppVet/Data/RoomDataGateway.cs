@@ -7,7 +7,7 @@ using WebAppVet.Models;
 
 namespace WebAppVet.Data
 {
-
+    /*
     public class RoomFacade : IRepository<Room>
     {
         public void Delete(int id)
@@ -43,5 +43,5 @@ namespace WebAppVet.Data
         {
             throw new NotImplementedException();
         }
-    }
+    }*/
 }

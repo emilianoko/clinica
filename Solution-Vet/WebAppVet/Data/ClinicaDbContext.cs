@@ -13,9 +13,11 @@ namespace WebAppVet.Data
         public ClinicaDbContext() : base("ClinicaDbContext") {
         }
 
-        public DbSet<Room> Rooms { get; set; }
+        public DbSet<Rooms> Rooms { get; set; }
         public DbSet<Client> Client { get; set; }
         public DbSet<Patient> Patient { get; set; }
+        public DbSet<Doctor> Doctor { get; set; }
+        public DbSet<Turn> Turn { get; set; }
 
 
     }
