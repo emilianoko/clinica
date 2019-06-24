@@ -12,10 +12,10 @@ namespace WebAppVet.Models
         public int Id_room { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
-      /*  public int Id_turn { get; set; }
+        /*  public int Id_turn { get; set; } */
 
-        public IList<Turn> Turns { get; set; }
-        */
+        public IList<Turn> turn { get; set; }
+      
     }
 
     [MetadataType(typeof(RoomsMetadata))]

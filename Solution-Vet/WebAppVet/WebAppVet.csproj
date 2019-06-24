@@ -154,7 +154,16 @@
     <Compile Include="Migrations\201906240448401_nuevo7.Designer.cs">
       <DependentUpon>201906240448401_nuevo7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906242131251_nuevo8.cs" />
+    <Compile Include="Migrations\201906242131251_nuevo8.Designer.cs">
+      <DependentUpon>201906242131251_nuevo8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906242216451_nuevo9.cs" />
+    <Compile Include="Migrations\201906242216451_nuevo9.Designer.cs">
+      <DependentUpon>201906242216451_nuevo9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Billing.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Doctor.cs" />
     <Compile Include="Models\Patient.cs" />
@@ -203,6 +212,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906240448401_nuevo7.resx">
       <DependentUpon>201906240448401_nuevo7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906242131251_nuevo8.resx">
+      <DependentUpon>201906242131251_nuevo8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906242216451_nuevo9.resx">
+      <DependentUpon>201906242216451_nuevo9.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

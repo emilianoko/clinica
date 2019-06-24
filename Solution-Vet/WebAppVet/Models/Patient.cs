@@ -21,6 +21,7 @@ namespace WebAppVet.Models
         public string Name { get; set; }
 
         public IList<Client> Clients { get; private set; }
+
     }
 
     [MetadataType(typeof(PatientMetadata))]

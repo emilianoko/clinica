@@ -15,6 +15,9 @@ namespace WebAppVet.Models
         /*public int Id_turn { get; set; }
 
         public IList<Turn> Turns { get; set; }*/
+
+        public IList<Turn> turn { get; set; }
+        
     }
 
     [MetadataType(typeof(DoctorMetadata))]
