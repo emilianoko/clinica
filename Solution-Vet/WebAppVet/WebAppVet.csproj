@@ -164,12 +164,16 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Billing.cs" />
+    <Compile Include="Models\Billing_Product.cs" />
+    <Compile Include="Models\Billing_Turn.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Doctor.cs" />
     <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Rooms.cs" />
     <Compile Include="Models\Service.cs" />
     <Compile Include="Models\Turn.cs" />
+    <Compile Include="Models\Turn_Type.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SharedKerne\Gender.cs" />
   </ItemGroup>
